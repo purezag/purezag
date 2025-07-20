@@ -28,7 +28,7 @@ body {
   pointer-events: none;
   z-index: -1;
   overflow: hidden;
-  opacity: .5;
+  opacity: .7;   
 }
 
 .typing-phrase {
