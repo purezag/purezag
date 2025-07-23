@@ -1,4 +1,4 @@
-const typingText = "olá, aventureiro";
+const typingText = "Greetings, adventurer";
 const typingEl = document.getElementById("main-typing");
 const fadeInText = document.getElementById("fade-in-text");
 
@@ -41,11 +41,11 @@ window.addEventListener("DOMContentLoaded", () => {
 // ========= FRASES ALEATÓRIAS E LOOP ========= //
 const phrases = [
   "      ",
-  "desafie o desconhecido ",
-  "transforme ideias ",
-  "desenhando realidades ",
-  "transformando café em código e design em emoção ",
-  "crie o impossível ",
+  "Challenge the unknown ",
+  "Transform ideas ",
+  "Designing realities ",
+  "Turning coffee into code, and design into emotion ",
+  "Create the impossible ",
   "       ",
 ];
 
