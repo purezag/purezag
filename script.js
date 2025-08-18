@@ -1,4 +1,4 @@
-const typingText = "Greetings, adventurer";
+const typingText = "Olá, aventureiro{a}";
 const typingEl = document.getElementById("main-typing");
 const fadeInText = document.getElementById("fade-in-text");
 
