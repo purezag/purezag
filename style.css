@@ -11,7 +11,7 @@
 
 body {
   min-height: 100vh;
-  width: 1200px;
+  width: 100%;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
   color: #a78b73;
