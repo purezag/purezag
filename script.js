@@ -11,11 +11,11 @@ function type() {
     setTimeout(type, 10);
     
   }  {
-    // Mostra o texto de baixo com fade após digitação
+    
     setTimeout(() => {
       fadeInText.classList.remove("hidden");
       fadeInText.classList.add("show");
-    }, 1); // atraso para suavidade
+    }, 1); 
   }
 }
 
@@ -28,7 +28,7 @@ window.onload = function type() {
     setTimeout(() => {
       fadeInText.classList.remove("hidden");
       fadeInText.classList.add("show");    
-    }, 500); // atraso para suavidade
+    }, 500);
   }
 }
 ;
@@ -38,7 +38,7 @@ window.addEventListener("DOMContentLoaded", () => {
 });
 
 
-// ========= FRASES ALEATÓRIAS E LOOP ========= //
+
 const phrases = [
   "      ",
   "Challenge the unknown ",
@@ -55,9 +55,9 @@ function createTypingPhrase() {
   const el = document.createElement("span");
   el.classList.add("typing-phrase");
 
-  // posição aleatória na tela
-  const x = Math.random() * 80; // %
-  const y = Math.random() * 80; // %
+  
+  const x = Math.random() * 80; 
+  const y = Math.random() * 80; 
   el.style.left = x + "vw";
   el.style.top = y + "vh";
 
@@ -73,7 +73,7 @@ function createTypingPhrase() {
       index++;
       if (index > phrase.length) {
         isDeleting = true;
-        setTimeout(type, 2000); // espera antes de apagar
+        setTimeout(type, 2000); 
         return;
       }
     } else {
@@ -81,7 +81,7 @@ function createTypingPhrase() {
       index--;
       if (index < 0) {
         el.remove();
-        createTypingPhrase(); // cria nova frase em outro local
+        createTypingPhrase(); 
         return;
       }
     }
@@ -92,7 +92,7 @@ function createTypingPhrase() {
   type();
 }
 
-// Inicializa frases ao fundo
+
 window.addEventListener("DOMContentLoaded", () => {
   for (let i = 0; i < 15; i++) {
     setTimeout(() => createTypingPhrase(), i * 500);
