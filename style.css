@@ -16,7 +16,7 @@ body {
   scroll-snap-type: y mandatory;
   color: white;
   font-family: 'Josefin Sans';
-  background-color: #121214;
+  background-color: black;
 }
 
 #typing-background {
@@ -63,7 +63,7 @@ body {
 }
 
 #main-typing {
-  background: linear-gradient(270deg, #121214, white, #121214, white); /* degrade cíclico */
+  background: linear-gradient(270deg, black, white, black, white); /* degrade cíclico */
   background-size: 1000% 800%; 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -87,7 +87,7 @@ body {
 }
 
 #fade-in-text {
-  background: linear-gradient(270deg, #121214, white, #121214, white); /* degrade cíclico */
+  background: linear-gradient(270deg, black, white, black, white); /* degrade cíclico */
   background-size: 1000% 800%; 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -113,7 +113,7 @@ body {
 /* SECTION-1 ========================================= */
 
 .section-1 {
-  background: #121214;
+  background: black;
   min-height: 100vh;
   width: 100%;  
     
@@ -143,7 +143,7 @@ body {
 }
 
 .option p {
-  color: linear-gradient(to bottom right, #121214, white 100%);
+  color: linear-gradient(to bottom right, black, white 100%);
   text-transform: uppercase;
   font-size: .6rem;
   font-weight: 100;
@@ -265,7 +265,7 @@ body {
 }
 
 .info h1 {
-  background: linear-gradient(270deg, #121214, white, #121214, white); /* degrade cíclico */
+  background: linear-gradient(270deg, black, white, black, white); /* degrade cíclico */
   background-size: 1000% 800%; /* importante pro movimento */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -279,7 +279,7 @@ body {
 }
 
 .info p {
-  background: linear-gradient(270deg, #121214, white, #121214, white); /* degrade cíclico */
+  background: linear-gradient(270deg, black, white, black, white); /* degrade cíclico */
   background-size: 1000% 800%; /* importante pro movimento */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -357,7 +357,7 @@ body {
 .btn {
   width: 100px;
   padding: 10px 20px;
-  border: linear-gradient(to bottom right, #121214, #121214 100%);
+  border: linear-gradient(to bottom right, black, black 100%);
   color: white;
   font-weight: 200;
   font-size: .6rem;
@@ -425,7 +425,7 @@ body {
 }
 
 .contact {
-  background: linear-gradient(270deg, #000000, white, #000000, white); /* degrade cíclico */
+  background: linear-gradient(270deg, black, white, black, white); /* degrade cíclico */
   background-size: 1000% 800%; /* importante pro movimento */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
