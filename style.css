@@ -16,7 +16,7 @@ body {
   scroll-snap-type: y mandatory;
   color: white;
   font-family: 'Josefin Sans';
-  background-color: #000000;
+  background-color: #121214;
 }
 
 #typing-background {
@@ -28,7 +28,7 @@ body {
   pointer-events: none;
   z-index: -1;
   overflow: hidden;
-  opacity: .6;   
+  opacity: .8;   
 }
 
 .typing-phrase {
@@ -217,7 +217,7 @@ body {
 .buttons.open .plus {
   font-weight: 900;
   transform: rotate(45deg);
-  color: #8d6a4b;
+  color: white;
   transition: .5s;  
 }
 
