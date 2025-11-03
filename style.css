@@ -14,7 +14,7 @@ body {
   width: 100%;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
-  color: #a78b73;
+  color: white;
   font-family: 'Josefin Sans';
   background-color: #000000;
 }
