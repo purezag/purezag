@@ -35,7 +35,7 @@ body {
   position: absolute;
   transform: translate(-50%, -50%);
   font-size: .5rem;
-  color: #a78b73;
+  color: white;
   opacity: 0.1;
   pointer-events: none;
   margin: 2rem;
@@ -63,7 +63,7 @@ body {
 }
 
 #main-typing {
-  background: linear-gradient(270deg, #000000, #a78b73, #000000, #a78b73); /* degrade cíclico */
+  background: linear-gradient(270deg, #000000, white, #000000, white); /* degrade cíclico */
   background-size: 1000% 800%; 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -87,14 +87,14 @@ body {
 }
 
 #fade-in-text {
-  background: linear-gradient(270deg, #000000, #a78b73, #000000, #a78b73); /* degrade cíclico */
+  background: linear-gradient(270deg, #000000, white, #000000, white); /* degrade cíclico */
   background-size: 1000% 800%; 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: moveGradient 15s ease infinite;
 
   pointer-events: none;
-  color: #a78b73;
+  color: white;
   opacity: 0;
   letter-spacing: .5vw;
   transition: opacity 5s ease;
@@ -143,7 +143,7 @@ body {
 }
 
 .option p {
-  color: linear-gradient(to bottom right, #000000, #a78b73 100%);
+  color: linear-gradient(to bottom right, #000000, white 100%);
   text-transform: uppercase;
   font-size: .6rem;
   font-weight: 100;
@@ -168,7 +168,7 @@ body {
   flex-direction: column;
   background: none;
   border: none;
-  color: #a78b73;
+  color: white;
   font-size: .6rem;
   font-family: 'Josefin Sans';
   font-weight: 100;
@@ -200,7 +200,7 @@ body {
   transition: .5s;
   text-shadow: 0 0px 0px rgb(182, 146, 112, .3);
   font-weight: 100;
-  color: #a78b73;
+  color: white;
   transform: scale(.9);
 }
 
@@ -229,7 +229,7 @@ body {
   overflow: hidden;
   transition: max-height 1s ease, opacity 1s ease;
   opacity: 0;
-  color: #a78b73;
+  color: white;
   font-size: 0.95rem;
 }
 
@@ -265,13 +265,13 @@ body {
 }
 
 .info h1 {
-  background: linear-gradient(270deg, #000000, #a78b73, #000000, #a78b73); /* degrade cíclico */
+  background: linear-gradient(270deg, #000000, white, #000000, white); /* degrade cíclico */
   background-size: 1000% 800%; /* importante pro movimento */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: moveGradient 15s ease infinite;
 
-  color: #a78b73;
+  color: white;
   font-size: 2rem;
   font-family: 'Josefin Sans';
   font-weight: 100;
@@ -280,13 +280,13 @@ body {
 }
 
 .info p {
-  background: linear-gradient(270deg, #000000, #a78b73, #000000, #a78b73); /* degrade cíclico */
+  background: linear-gradient(270deg, #000000, white, #000000, white); /* degrade cíclico */
   background-size: 1000% 800%; /* importante pro movimento */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: moveGradient 15s ease infinite;
 
-  color: #a78b73;
+  color: white;
   font-size: 1rem;
   font-family: 'Josefin Sans';
   font-weight: 100;
@@ -340,7 +340,7 @@ body {
 
 .tools {
   font-size: 1.4rem;
-  color: #a78b73;
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -359,7 +359,7 @@ body {
   width: 100px;
   padding: 10px 20px;
   border: linear-gradient(to bottom right, #000000, #121214 100%);
-  color: #a78b73;
+  color: white;
   font-weight: 200;
   font-size: .6rem;
   text-transform: uppercase;
@@ -385,7 +385,7 @@ body {
 }
 
 .baseboard p {
-  color: #a78b73;
+  color: white;
   font-size: .7rem;
   font-family: 'Josefin Sans';
   font-weight: 100;
@@ -426,7 +426,7 @@ body {
 }
 
 .contact {
-  background: linear-gradient(270deg, #000000, #a78b73, #000000, #a78b73); /* degrade cíclico */
+  background: linear-gradient(270deg, #000000, white, #000000, white); /* degrade cíclico */
   background-size: 1000% 800%; /* importante pro movimento */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -452,18 +452,18 @@ body {
 .social-icons {
   gap: 2rem;
   font-size: 1.8rem;
-  color: #a78b73;
+  color: white;
 }
 
 .social-icons a {
-  color: #a78b73;
+  color: white;
   text-decoration: none;
 }
 
 .line {
   width: 1px;
   height: 6rem;
-  background-color: #a78b73;
+  background-color: white;
   opacity: .3;
 }
 
@@ -475,7 +475,7 @@ body {
 }
 
 .address-container h1 {
-  color: #a78b73;
+  color: white;
   font-size: 1rem;
   font-family: 'Josefin Sans';
   font-weight: 100;
